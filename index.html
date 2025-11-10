@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Preview Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section id="image">
+    <div class="container">
+      <div class="row">
+        <div class="img_container"><img src="./images/1.jpg" alt=""></div>
+        <div class="img_container"><img src="./images/2.jpg" alt=""></div>
+        <div class="img_container"><img src="./images/3.jpg" alt=""></div>
+        <div class="img_container"><img src="./images/4.jpg" alt=""></div>
+      </div>
+
+      <div class="previewBody">
+        <div class="previewImage">
+          <img src="./images/1.jpg" alt="">
+        </div>
+
+        <!-- Previous button -->
+        <div class="prev">
+          <span><iconify-icon icon="ep:arrow-left-bold" width="24" height="24"></iconify-icon></span>
+        </div>
+
+        <!-- Next button -->
+        <div class="next">
+          <span><iconify-icon icon="ep:arrow-right-bold" width="24" height="24"></iconify-icon></span>
+        </div>
+
+        <!-- Close button -->
+        <div class="cross">
+          <span><iconify-icon icon="maki:cross" width="20" height="20"></iconify-icon></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+</body>
+</html>
